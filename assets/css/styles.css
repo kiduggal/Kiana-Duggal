@@ -1,0 +1,260 @@
+/* COGS3 studyBuddy specific styles go here. */
+
+/* Font Weights */
+.ubuntu-light {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.ubuntu-regular {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ubuntu-medium {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.ubuntu-bold {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* Italics */
+.ubuntu-light-italic {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.ubuntu-regular-italic {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.ubuntu-medium-italic {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.ubuntu-bold-italic {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+/* Title Section */
+#title {
+  background-color: rgb(166, 50, 87); 
+  position: relative;
+  z-index: 1;
+  min-height: 500px;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+  color: white;
+}
+
+h2 {
+  color: white;
+  font-family: 'Playfair Display', serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+h3 {
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: white !important;
+}
+
+.nav-item {
+  padding: 0px 18px;
+}
+
+.nav-link {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.2rem;
+  color: white !important;
+}
+
+.nav-link:hover {
+  color: #f9ab4a !important;
+}
+
+/* Download Buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.download-button i {
+  transition: color 0.3s ease;
+}
+
+.download-button:hover i {
+  color: rgb(249, 171, 74) !important;
+}
+
+/* Title Image */
+.title-image {
+  width: 60%;
+  transform: rotate(20deg);
+  z-index: 2;
+  position: absolute;
+}
+
+/* Features Section */
+#features {
+  padding: 7% 15%;
+  background-color: rgb(247, 247, 247);
+  position: relative;
+  z-index: 2;
+  color: black;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.feature-box .icon {
+  color: rgb(128, 191, 230);
+  margin-bottom: 1rem;
+  transition: color 0.3s ease;
+}
+
+.feature-box:hover .icon {
+  color: rgb(249, 171, 74);
+  cursor: pointer;
+}
+
+/* Testimonials Section */
+#testimonials {
+  text-align: center;
+  background-color: rgb(166, 50, 87);
+  color: white;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+.icon {
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.icon:hover {
+  color: rgb(249, 171, 74) !important;
+}
+
+/* Press Section */
+#press {
+  background: rgb(166, 50, 87);
+  text-align: center;
+  color: white;
+}
+
+.press-logo {
+  width: 20%;
+  margin: 50px 0px;
+  mix-blend-mode: multiply; /* Researched how to get rid of white background */
+}
+
+/* Pricing Section */
+#pricing {
+  padding: 100px;
+  text-align: center;
+  background-color: rgb(247, 247, 247);
+  color: black;
+}
+
+.pricing-header {
+  color: black;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* Call To Action Section CTA */
+#cta {
+  background-color: rgb(166, 50, 87);
+  color: white;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.cta-heading {
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/* Footer Section */
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: rgb(247, 247, 247);
+  color: black;
+}
+
+.social-icon {
+  padding: 20px 10px;
+  color: rgb(166, 50, 87);
+  transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+  color: rgb(249, 171, 74) !important;
+  cursor: pointer;
+}
+
+/* Media Query Section */
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}

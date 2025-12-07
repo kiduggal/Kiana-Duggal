@@ -1,0 +1,164 @@
+body {
+  font-family: "Libre Baskerville", serif;
+  text-align: center;
+  color: #2b2b2b;
+  background-color: #f6f1ea;
+  line-height: 1.7;
+  margin: 0;
+}
+
+h1, h2, h3 {
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
+  color: #1f1f1f;
+}
+
+#title {
+  background: #efe8df;
+  padding: 4% 10% 5%;
+}
+
+.navbar-brand,
+.nav-link {
+  color: #000000 !important;
+}
+
+.nav-link:hover {
+  color: #8a8178 !important;
+}
+
+.subtitle {
+  font-size: 0.75rem;
+  letter-spacing: 1.5px;
+  color: #6b6259;
+  text-transform: uppercase;
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+.hero-sub {
+  max-width: 700px;
+  margin: 18px auto;
+  color: #3b3530;
+}
+
+.hero-content h1 {
+  margin-top: 60px;
+  font-size: 2.8rem;
+}
+
+.download-button {
+  margin-top: 20px;
+  border: 1px solid #4a463f;
+  color: #000000;
+  background-color: transparent;
+  padding: 10px 26px;
+  text-decoration: none;
+}
+
+.download-button i {
+  margin-right: 8px;
+  color: #8a8178;
+}
+
+.download-button:hover {
+  background-color: #4a463f;
+  color: #ffffff;
+}
+
+#portfolio,
+#features,
+#contact {
+  padding: 60px 10%;
+}
+
+#portfolio {
+  background: #f3eee8;
+}
+
+#features {
+  background: #efe8df;
+}
+
+#contact {
+  background: #f1ede6;
+}
+
+.pricing-column {
+  padding: 20px;
+}
+
+.card {
+  border: none;
+  border-radius: 14px;
+  background: #ffffff;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+.card-header {
+  background-color: #efe8df;
+  border-bottom: none;
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
+}
+
+.btn-outline-dark {
+  margin-top: 15px;
+  border-color: #8a8178;
+  color: #4a463f;
+}
+
+.btn-outline-dark:hover {
+  background-color: #8a8178;
+  color: #ffffff;
+}
+
+#features {
+  background: #f6f1ea;
+  padding: 60px 10%;
+  text-align: center;
+}
+
+#features h2 {
+  margin-bottom: 40px;
+}
+
+.skills-list {
+  display: flex;
+  flex-direction: column; 
+  align-items: flex-start; 
+  max-width: 500px;
+  margin: 0 auto;
+  gap: 25px; 
+}
+
+.skill-item {
+  display: flex;
+  align-items: flex-start; 
+  gap: 15px; 
+}
+
+.skill-item .icon {
+  font-size: 1.5rem; 
+  margin-top: 3px; 
+  color: #8a8178;
+  width: 30px; 
+  flex-shrink: 0;
+  text-align: center;
+}
+
+.skill-item .skill-text {
+  text-align: left;
+}
+
+.skill-item strong {
+  font-weight: 600;
+  display: block;
+  margin-bottom: 3px;
+}
+
+#footer {
+  padding: 35px 0;
+  background: #f6f1ea;
+  font-size: 0.9rem;
+}
